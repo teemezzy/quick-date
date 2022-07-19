@@ -1,0 +1,80 @@
+
+.edit-profile-center-content  .edit-prof-next-page-wrapper{
+    margin: 0 30px;
+    margin-bottom: 100px;
+}
+
+.edit-profile-center-content  .edit-prof-next-page-wrapper .edit-prof-input-wrapper{
+    display: flex;
+    flex-direction:column;
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+
+.edit-profile-center-content .edit-prof-next-page-wrapper .edit-prof-input-wrapper > label{
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+
+.edit-profile-center-content .edit-prof-next-page-wrapper .edit-prof-input-wrapper > input {
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #333333;
+    outline: none;
+}
+
+
+.edit-profile-center-content .edit-prof-next-page-wrapper .edit-prof-input-wrapper > textarea {
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #333333;
+    outline: none;
+}
+
+.edit-profile-center-content .edit-prof-next-page-wrapper .edit-input-double-input-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    width: 80%;
+    margin-bottom: 12px;
+}
+
+.edit-profile-center-content .edit-prof-next-page-wrapper .edit-input-double-input-wrapper .the-input-wrapper{
+    display: flex;
+    flex-direction:column;
+    margin-bottom: 12px;
+}
+
+.check-option-container{
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.check-option-container > div{
+    margin-bottom: 10px;
+}
+
+.edit-prof-mobile-check-wrapper{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+
+}
+
+.edit-prof-mobile-check-wrapper input {
+    margin-right: 10px;
+}
+
+.edit-prof-submit-btn{
+    margin: 0 auto;
+    display: block;
+    cursor: pointer;
+    margin-bottom: 20px;
+    background-color: #6A52FD;
+    border: none;
+    color: #fff;
+    padding: 13px 40px;
+    border-radius: 50px;
+}

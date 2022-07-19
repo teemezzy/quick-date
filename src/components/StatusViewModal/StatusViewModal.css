@@ -1,0 +1,112 @@
+.modal-container {
+    width: 100%;
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index:10;
+    background-color: #8E8E8E;
+    padding: 20px;
+}
+.bar {
+    height: 4px;
+    width: 100%;
+    background: #959595;
+    border-radius: 20px;
+    
+  }
+  .bar .in {
+    animation: fill 10s linear 1;
+    height: 100%;
+    background-color: #fff;
+  }
+  
+  @keyframes fill {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+  .view-options{
+    display: flex;
+    justify-content: flex-end;
+    gap: 25px;
+    margin-right: 25px;
+    margin-top: 80px;
+    position: relative;
+  }
+  .report-tray{
+    position: absolute;
+    z-index: -2;
+    top: 20px;
+  }
+  .view-options .item{
+    cursor: pointer;
+  }
+  .viewMore-action{
+    position: absolute;
+    right: 250px;
+  }
+  .viewMore-action .text{
+    position: relative;
+    top: 100px;
+    left: 30px;
+    z-index: -1;
+  }
+  .viewMore-action .text{
+    cursor: pointer;
+  }
+  .modal-container .item-one .userprofile{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-left: 50px;
+  }
+  .modal-container .item-one .userprofile .user-head{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: white;
+    cursor: pointer;
+  }
+  .modal-container .item-one .userprofile p{
+    margin-bottom: 0;
+    color: #fff;
+  }
+  .main-status {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    z-index: -3;
+  }
+
+  @media only screen and (max-width: 867px) {
+    .view-options {
+      margin-top: 20px;
+    }
+    .modal-container .item-one .userprofile .user-head {
+      width: 40px;
+      height: 40px;
+    }  
+  }
+  @media only screen and (max-width: 667px) {
+    .view-options {
+      margin-top: 20px;
+    }
+    .modal-container .item-one .userprofile .user-head {
+      width: 40px;
+      height: 40px;
+    }  
+    
+  .modal-container .item-one .userprofile{
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      margin-left: 20px;
+    }
+  }

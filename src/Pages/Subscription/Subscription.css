@@ -1,0 +1,196 @@
+
+
+.subscription-center-content-wrapper{
+    width: 100%;
+}
+
+
+.subscription-center-content-wrapper .subscription-heading{
+    margin-bottom: 16px;
+    padding-left: 25px;
+}
+
+.subscription-center-content{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 40px;
+    padding-bottom: 100px;
+}
+
+.subscription-other-half{
+    /* background-color:red */
+}
+
+.sub-top-heading-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateY(-40px);
+    margin-right: 10%;
+}
+
+.sub-top-heading-wrapper > div:first-child {
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.sub-top-heading-wrapper .second-item-in-top-heading{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+.sub-top-heading-wrapper .second-item-in-top-heading .bill-monthly{
+    margin-right: 10px;
+}
+
+.sub-top-heading-wrapper .second-item-in-top-heading .bill-annually{
+    margin-left: 10px;
+}
+
+.subscription-option-cards-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-right: 10%;
+    gap: 25px;
+    margin-bottom: 30px;
+}
+
+.subscription-option-cards-container .subscription-card{
+    background-color: #F6F4FF;
+    border-radius: 20px;
+    max-height: 416px;
+    padding: 15px;
+}
+
+.subscription-option-cards-container .subscription-card .card-title-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.subscription-option-cards-container .subscription-card .card-title{
+    font-weight: 600;
+    color: #6A52FD;
+    font-size: 25px;
+
+}
+
+.subscription-option-cards-container .middle-card .card-title{
+    font-weight: 600;
+    color: #fff;
+    font-size: 25px;
+
+}
+
+.subscription-option-cards-container .subscription-card .card-title-wrapper .bonus-badge{
+    font-size: 12px;
+    background-color: #6A52FD;
+    height: 20px;
+    margin-top: 5px;
+    color: #fff;
+    padding:3px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+}
+
+.subscription-option-cards-container .middle-card .card-title-wrapper .bonus-badge{
+    background-color: #fff;
+    color: #6A52FD;
+
+}
+
+.subscription-option-cards-container .card-list{
+    margin-bottom: 20px;
+}
+
+.subscription-option-cards-container .card-list .card-list-item{
+    display: flex;
+    align-items: center;
+    color: #6A52FD;
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+
+.subscription-option-cards-container .middle-card .card-list .card-list-item{ 
+    color: #fff;
+}
+
+.subscription-option-cards-container .card-list .card-list-item .card-tick-icon{
+    margin-right: 5px;
+}
+
+.subscription-option-cards-container  .card-standalone-value{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #6A52FD;
+    font-weight: 600;
+}
+
+.subscription-option-cards-container .middle-card  .card-standalone-value{
+   
+    color: #fff;
+}
+
+.subscription-option-cards-container  .card-button{
+    width: 100%;
+    padding: 12px 0;
+    background-color: #6A52FD;
+    color: #fff;
+    border-radius: 16px;
+    border: none;
+}
+
+.subscription-option-cards-container .middle-card .card-button{
+    
+    background-color: #F6F4FF;
+    color: #6A52FD;
+}
+
+.subscription-option-cards-container .middle-card{
+    transform: translateY(-10%);
+    background-color: #6A52FD;
+    color: #fff;
+}
+
+.subscription-auto-renew-option-section{
+    margin-bottom: 20px;
+}
+
+.subscription-auto-renew-option-section .enable-auto-renew-wrapper{
+    margin-right: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.subscription-auto-renew-option-section .enable-auto-renew-wrapper >div:first-child{
+    font-weight: 600;
+}
+
+.subscription-table-section{
+    margin-right: 10%;
+}
+
+.subscription-table-section .sub-table-heading{
+    background-color: #F4F2FF;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    padding: 6px 20px;
+    margin-bottom: 5px;
+}
+
+.subscription-table-section .sub-table-body{
+    padding: 6px 20px;
+    margin-bottom: 5px;
+}
+
+.subscription-table-section .sub-table-row{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    margin-bottom: 10px;
+}

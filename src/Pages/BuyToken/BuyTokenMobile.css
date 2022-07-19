@@ -1,0 +1,22 @@
+@media only screen and (max-width: 990px){
+    
+    .buy-token-center-content{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .buy-token-center-content-wrapper .buy-token-heading{
+        display: none;
+    }
+
+    .buy-token-top-heading-wrapper{
+        display: none;
+    }
+
+    .buy-token-input-section{
+        margin: 0 25px;
+    }
+
+}

@@ -1,0 +1,53 @@
+.date-content-wrapper .nav-buttons, 
+.date-content-wrapper .nav-filter{
+    width: 80%;
+    margin: 0 auto;
+}
+.date-content-wrapper .nav-buttons button{
+    width: 50%;
+    background: none;
+    border: none;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #DAD9D9;
+    color: #DAD9D9;
+}
+.date-content-wrapper .no-display-shadower{
+    height: 12.5%;
+}
+.date-content-wrapper .nav-buttons .current {
+    border-bottom: 2px solid #A4A4A4;
+    color: #292929;
+}
+.date-content-wrapper .nav-filter{
+    margin-top: 30px;
+    display: flex;
+}
+.date-content-wrapper .nav-filter .input-container{
+    width: 70%;
+    background: #F6F4FF;
+    border: 1px solid #E1E1E1;
+    box-sizing: border-box;
+    border-radius: 50px;
+    padding-left: 20px;
+    margin-right: 50px;
+}
+.date-content-wrapper .nav-filter input{
+    width: 80%;
+    height: 100%;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+@media only screen and (max-width: 767px) {
+    .date-content-wrapper{
+        margin-bottom: 150px;
+    }
+    .date-content-wrapper .nav-buttons, 
+    .date-content-wrapper .nav-filter{
+        width: 100%;
+    }
+    .w-75 {
+        width: 100%!important;
+    }
+}

@@ -1,0 +1,39 @@
+.toggle-switch-wrapper .toggle-switch{
+    position: relative;
+    width: 80px;
+    height: 30px;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+            background-color: #6A52FD;
+            outline: none;
+     border-radius: 20px;
+     transition: 0.5s;
+     box-shadow: inset;
+ }
+ 
+ .toggle-switch-wrapper .toggle-switch:checked{
+     /* background-color: blue; */
+ }
+ 
+ .toggle-switch-wrapper .toggle-switch::before{
+     content: "";
+     position: absolute;
+     left: 5px;
+     top: 5px;
+     width: 20px;
+     height: 20px;
+     background-color: #fff;
+     border-radius: 50%;
+     transition: .5s;
+ }
+ 
+ .toggle-switch-wrapper .toggle-switch:checked::before{
+     /* right: 5px; */
+     left: 55px;
+ }
+ 
+ 
+ input.toggle-switch:checked + .toggle-slider::before{
+     transform: translateX(20px);
+ }

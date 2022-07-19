@@ -1,0 +1,87 @@
+
+
+.buy-token-center-content-wrapper{
+    width: 100%;
+}
+
+
+.buy-token-center-content-wrapper .buy-token-heading{
+    margin-bottom: 16px;
+    padding-left: 25px;
+}
+
+.buy-token-center-content{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 40px;
+    padding-bottom: 100px;
+}
+
+.buy-token-other-half{
+    /* background-color:red */
+}
+
+.buy-token-top-heading-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateY(-40px);
+    margin-right: 10%;
+}
+
+.buy-token-top-heading-wrapper > div:first-child {
+    margin-bottom: 10px;
+    /* font-weight: 600; */
+}
+
+
+.buy-token-input-section{
+    margin-right: 10%;
+    /* margin-bottom: 20px; */
+}
+
+
+.buy-token-input-section .buy-token-first-input-wrapper{
+    margin-bottom: 20px;
+}
+
+.buy-token-second-input-wrapper{
+    margin-bottom: 40px;
+}
+
+.buy-token-input-section .buy-token-input{
+    width: 100%;
+    padding: 10px 20px;
+}
+
+.buy-token-input-section .buy-token-input-box{
+    display: flex;
+    width: 100%;
+}
+
+.buy-token-input-section .buy-token-currency-label{
+    border: 1px solid black;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buy-token-input-section .buy-token-input-two{
+    flex: 1;
+    padding: 10px 20px;
+}
+
+.buy-token-btn{
+    display: block;
+    background-color: #6A52FD;
+    padding: 20px;
+    margin: 0 auto;
+    /* align-self: center; */
+    color: #fff;
+    width: 35%;
+    border-radius: 100px;
+    border: none;
+    outline: none;
+}

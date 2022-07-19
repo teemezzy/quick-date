@@ -1,0 +1,45 @@
+/* STORY SECTION IMAGES HERE */
+.story-section{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    overflow-x: scroll;
+    gap: 20px;
+}
+.story-section::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .story-section {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+.pretty{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: linear-gradient(rgba(106, 82, 253, 1), rgba(255, 96, 200, 1));
+    padding: 1px;
+    cursor: pointer;
+}
+.my-status{
+  position: relative;
+}
+.my-profile-status{
+  background: none;
+}
+.add-status{
+  position: absolute;
+  bottom: 8px;
+  right: -2px;
+  background-color: #fff;
+  border-radius: 50%;
+  cursor: pointer;
+
+}
+@media only screen and (max-width: 667px) {
+  .story-section{
+    padding-left: 15px;
+  }
+}

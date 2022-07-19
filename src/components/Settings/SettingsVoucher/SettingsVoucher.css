@@ -1,0 +1,34 @@
+.settings-voucher-wrapper{
+    color: #292929;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.settings-voucher-wrapper .item{
+    width: 70%;
+    text-align: justify;
+}
+.settings-voucher-wrapper .item input{
+    background: #FFFFFF;
+    outline: none;
+    padding: 10px;
+    width: 100%;
+    border: 0.5px solid #8C8B8B;
+    margin-bottom: 20px;
+}
+.settings-voucher-wrapper .activate{
+    background: #7B61FF;
+    border-radius: 30px;
+    padding: 10px 30px;
+    color: #FFFFFF;
+    border: none;
+}
+
+@media screen and (max-width: 767px) {
+    .settings-voucher-wrapper{
+        padding-bottom: 90px;
+    }
+    .settings-voucher-wrapper .item{
+        width: 90%;
+    }
+}

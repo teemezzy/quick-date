@@ -1,0 +1,32 @@
+
+.txt-parent-2b{
+    background-color: #F6F4FF;
+}
+
+.txt1{
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.main-parent{
+    margin-top: 60px;
+}
+
+.httext-imprint{
+    margin-left: 20rem;
+    text-align: justify;
+   position: relative;
+   top: 45px;
+}
+
+.texts-contents > p{
+text-align: justify;
+font-size: 13px;
+
+}
+.texts-contents{
+    padding-top: 60px;
+}
+.smalls{
+    width: 60%;
+}

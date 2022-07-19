@@ -1,0 +1,11 @@
+
+
+.user-posts-grid{
+    /* display: grid; */
+    /* grid-template-columns: repeat(3,1fr); */
+    /* gap: 10px; */
+}
+
+.user-posts-grid  img{
+    border-radius: 10px;
+}

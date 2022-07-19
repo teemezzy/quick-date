@@ -1,0 +1,39 @@
+@media only screen and (max-width: 990px){
+    
+    .wallet-center-content{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .wallet-center-content-wrapper .wallet-heading{
+        display: none;
+    }
+
+    .wallet-other-half{
+        margin-right: 0%;
+        margin: 0 30px;
+    }
+
+    .wallet-top-heading-wrapper{
+        display: none;
+    }
+
+    .wallet-card-container{
+        display: grid;
+        gap: 40px;
+        grid-template-columns: 1fr 1fr;
+        margin-bottom: 30px;
+        align-items: center;
+    }
+
+    .wallet-txns-table .wallet-txns-table-heading{
+        font-size: 12px;
+    }
+
+    .wallet-txns-table-container .wallet-txns-body-row{
+        font-size: 12px;
+    }
+
+}

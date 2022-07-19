@@ -1,0 +1,28 @@
+.no-dates{
+    width: 80%;
+    margin: 0 auto;
+}
+.no-dates h3, .no-dates p{
+    color: #292929;
+}
+.no-dates{
+    border: 1px solid #000000;
+    border-radius: 20px;
+    margin-top: 30px;
+    text-align: center;
+}
+.no-dates button{
+    background: none;
+    border: 1px solid #6A52FD;
+    color: #6A52FD;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    width: 150px;
+}
+
+@media only screen and (max-width: 767px) {
+    .no-dates{
+        width: 100%;
+    }
+}

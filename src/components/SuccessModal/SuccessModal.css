@@ -1,0 +1,32 @@
+.success-modal-container {
+    width: 100%;
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index:10;
+    background-color: rgba(0,0,0,0.6);
+}
+.success-action{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    width: 500px;
+    height: 300px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 667px) {
+    .success-action{
+        width: 300px;
+        text-align: center;
+    }
+}

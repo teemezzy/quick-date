@@ -1,0 +1,154 @@
+.acct-setup-container{
+    position: relative;
+    min-height: 100%;
+    color: #292929;
+    /* background-color: red; */
+}
+
+.acct-setup-left-img{
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 54%;
+    /* -o-object-fit: cover; */
+       /* -o-object-fit: contain; */
+          /* object-fit: contain; */
+}
+
+.acct-setup-left-img-mobile{
+    display: none;
+
+}
+
+.acct-setup-btm-right-img{
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    width: 15%;
+}
+
+.acct-setup-content-wrapper{
+    display: grid;
+    grid-template-columns: 1.5fr 2fr;
+}
+
+.right-input-wrapper{
+    padding:50px 100px;
+}
+
+.right-input-fields-wrapper{
+    padding: 50px;
+    
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 6px 12px rgba(106, 82, 253, 0.25);
+    border-radius: 29.8639px;
+
+}
+
+.acct-setup-input-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.acct-setup-input-container .acct-setup-heading-container{
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.acct-setup-input-container .acct-setup-heading-one{
+    font-weight: bold;
+    font-size: 24px;
+    color: #292929;
+}
+
+.acct-setup-input-container .acct-setup-heading-two{
+    /* font-weight: bold; */
+    
+    font-size: 14px;
+}
+
+.acct-setup-input-container .input-option-tab > div:nth-child(2){
+    /* padding: 20px 80px; */
+    border-radius: 10px;
+}
+
+.acct-setup-input-container .input-option-tab .acct-setup-tab-active,.em-selected{
+    background-color: #EAEAEA;
+}
+
+form .acct-setup-input-wrapper{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.acct-setup-input-form{
+    display: flex;
+    flex-direction: column;
+}
+
+form .acct-setup-input-wrapper label{
+    margin-bottom: 10px;
+}
+
+form .acct-setup-input-wrapper input, 
+.acct-setup-input-wrapper .field{
+    border: none;
+    border-radius: 10px 0 0 10px;
+    outline: none;
+    padding: 10px 40px;
+    min-width: 400px;
+    background-color: #F6F4FF;
+}
+
+form .acct-setup-input-wrapper input:focus, .field-focus{
+    border: 1px solid #7B61FF !important;
+}
+
+
+.acct-setup-input-wrapper .label-wrapper{
+    margin-bottom: 10px;
+}
+
+.acct-setup-input-wrapper .label-wrapper > div:nth-child(2){
+    font-size: 14px;
+}
+
+.acct-setup-input-wrapper .single-input-wrapper{
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.acct-setup-input-wrapper .single-input-wrapper .input-icon-wrapper {
+    background-color: #F6F4FF;
+    padding: 10px;
+    border-radius: 0 10px 10px 0;
+}
+
+form .acct-setup-input-wrapper input:focus~ .input-icon-wrapper, .icon-focus{
+    background-color: #7B61FF !important;
+    color: #fff !important;
+    font-weight:700 !important;
+}
+
+.acct-setup-input-form button{
+    background-color: #7B61FF;
+    border-radius: 50px;
+    border: 1px solid #7B61FF;
+    padding: 19px;
+    margin-top: 20px;
+    color: #fff;
+    outline: none;
+    margin-bottom: 18px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 767px){
+    .acct-setup-input-wrapper .field{
+        min-width: auto;
+        width: 100%;
+    }
+}

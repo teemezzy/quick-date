@@ -1,0 +1,73 @@
+@media only screen and (max-width: 990px){
+    .signup-left-img{
+        display: none;
+    }   
+
+    .signup-left-img-mobile{
+        display: block;
+        position: absolute;
+        top: 0px;
+        left: 0;
+        width: 54%;
+    }
+
+    .signup-btm-right-img{
+        width: 40%;
+    }
+
+    .signup-content-wrapper{
+        display: grid;
+        grid-template-columns: 1fr;
+        /* position: relative; */
+    }
+
+    .right-input-wrapper{
+        padding:25px 50px;
+        /* background-color: red;     */
+    }
+
+    .right-input-fields-wrapper{
+    padding: 20px;
+}
+
+    .signup-input-container .input-option-tab > div{
+        padding: 10px 40px;
+        background-color: #fff;
+    }
+    
+    .em-selected >div:nth-child(2){
+        color: #000;
+    }
+
+    .signup-input-container .input-option-tab .signup-tab-active,.em-selected{
+        background-color: #6A52FD;
+        color: #fff;
+    }
+
+    form .signup-input-wrapper input{
+        border: 1px solid #535353;
+        border-radius: 50px;
+        outline: none;
+        padding: 10px 40px;
+        min-width: 70px;
+        width: 100%;
+    }
+
+    .forgot-pword{
+        align-self: flex-end;
+        color: #6A52FD;
+        margin-bottom: 50px;
+    }
+
+    .signup-input-form button{
+        background-color: #7B61FF;
+        border-radius: 50px;
+        border: 1px solid #7B61FF;
+        padding: 19px;
+        color: #fff;
+        outline: none;
+        margin-bottom: 18px;
+        width: 50%;
+        align-self: center;
+    }
+}

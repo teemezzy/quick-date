@@ -1,0 +1,44 @@
+
+.profile-abt-section-container{
+    margin-bottom: 30px;
+}
+
+.profile-abt-section-container .profile-abt-info-tab-control{
+    display: flex;
+    color: #9E9E9E;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.profile-abt-section-container .profile-abt-info-tab-control > div:first-child{
+    margin-right: 30%;
+}
+
+.profile-abt-info-tab-control .profile-tab-active{
+    color: #292929;
+}
+
+.profile-abt-section-container .profile-abt-section-info-container{
+    width: 100%;
+    min-height: 100px;
+    border: 1px solid #9E9E9E;
+    border-radius: 10px;
+    padding: 30px;
+    padding-bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    margin-bottom: 10px;
+
+}
+
+.profile-abt-section-container .profile-abt-info-item{
+    margin-bottom: 20px;
+}
+
+.profile-abt-section-container .profile-abt-info-item > div:first-child{
+    text-transform: uppercase;
+    /* margin-bottom: 0px; */
+    font-weight: 600;
+}

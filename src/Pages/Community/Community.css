@@ -1,0 +1,233 @@
+/* logo */
+.logo{
+    Width:135px;
+    Height:35px
+}
+.notiIcon{
+    color: red;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    left: 8.47%;
+    right: 8.75%;
+    top: 4.93%;
+    bottom: 14.06%;
+/* New primary color */
+background: #6A52FD;
+}
+.hot-picks-title{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+.profilePicsHeader{
+    border-radius: 50%;
+    margin: 0 15px;
+}
+.profilePicsHeader img{
+    width: 40px;
+    height: 40x;
+    border-radius: 50%;
+}
+.contentsLeft{
+   align-items: center;
+}
+/* side nav  */
+.sideNav{
+ position: absolute;
+width: 395px;
+height: 641.07px;
+left: 27px;
+top: 142px;
+
+}
+.manImage{
+position: absolute;
+width: 91.89px;
+height: 91.89px;
+left: 159.16px;
+top: 0px;
+background: url(../../assets/images/man.png);
+}
+
+.location{
+    width: 10px;
+    margin-right: 4px;
+}
+.community {
+    background: #6A52FD;
+    border-radius: 100px;
+    width: 250px;
+    margin-left: 46px;
+    height: 39px;
+    margin-top: 38px;
+    border: none;
+    color: white;
+}
+.communityIcon{
+    width: 10px;
+    margin-right: 8px;
+}
+
+.post {
+    background: none;
+    border-radius: 100px;
+    width: 282px;
+    margin-left: 4px;
+    height: 39px;
+    margin-top: 10px;
+    border: none;
+    color: black;
+}
+.postIcon{
+    width: 10px;
+    margin-right: 8px;
+}
+.dating {
+    background: none;
+    border-radius: 100px;
+    width: 282px;
+    margin-left: 12px;
+    height: 39px;
+    margin-top: 0px;
+    border: none;
+    color: black;
+}
+.datingIcon{
+    width: 10px;
+    margin-right: 8px;
+}
+
+.chats {
+    background: none;
+    border-radius: 100px;
+    width: 282px;
+    margin-left: 9px;
+    height: 39px;
+    margin-top: 0px;
+    border: none;
+    color: black;
+}
+.chatIcon{
+    width: 10px;
+    margin-right: 8px;
+}
+
+.buyToken {
+    background: none;
+    border-radius: 100px;
+    width: 282px;
+    margin-left: 29px;
+    height: 39px;
+    margin-top: 0px;
+    border: none;
+    color: black;
+}
+.buy-tokenIcon{
+    width: 10px;
+    margin-right: 8px;
+}
+.logOut {
+    background: none;
+    border-radius: 100px;
+    width: 282px;
+    margin-left: 14px;
+    height: 39px;
+    margin-top: 0px;
+    border: none;
+    color: rgb(251, 0, 0);
+    
+}
+.logoutIcon{
+    width: 10px;
+    margin-right: 8px;
+}
+
+/* chevrons on the story section */
+.chevright{
+    margin-left: 30px;
+    width: 25px;
+}
+.chevleft{
+    width: 25px;
+}
+
+/* hot pics section */
+.hp-viewall{
+    margin-left: 32px;
+    margin-top: 100px;
+}
+.hpicks{
+    font-weight: 700;
+}
+.gendertype{
+    font-size: 13px;
+}
+
+.genderbackgd{
+    background-color: #F6F4FF;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: small;
+    margin-bottom: 10px;
+}
+.viewall {
+    color: #6A52FD;
+    cursor: pointer;
+}
+/* hookup images */
+.allhookpicksimages{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-top: 14px;
+}
+
+.usersearchbox {
+    height: 40px;
+    border: none;
+    background: #F6F4FF;
+    border-radius: 50px;
+    padding: 22px;
+    outline: none;
+}
+.usersearchbox:focus {
+    border: none;
+}
+
+/* media query for mobile (responsiveness)*/
+@media only screen and (max-width: 1100px) {
+    .allhookpicksimages{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media only screen and (max-width: 767px) {
+    .community-holder{
+        padding-bottom: 90px;
+    }
+    .allhookpicksimages{
+        grid-template-columns: repeat(2, 1fr);
+        padding: 15px;
+    }
+    .left-content{
+        width: 100% !important;
+        margin: 0 !important;
+    }
+    .hpicks{
+        font-size: 20px;
+    }
+    .hot-picks-title{
+        padding: 15px;
+    }
+    .member-block{
+        display: block;
+    }
+    .member-block .item-one{
+        justify-content: start !important;
+        gap: 10px;
+    }
+    .usersearchbox{
+        margin-right: 15px;
+        width: 70%;
+    }
+}

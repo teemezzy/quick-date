@@ -1,0 +1,57 @@
+.date-form-wrapper{
+    display: flex;
+    gap: 30px;
+}
+.date-form-wrapper .title{
+    font-size: 30px;   
+}
+.date-form-wrapper .back-arrow{
+    font-size: 30px;
+    margin-top: 10px;
+}
+.date-form-wrapper .number, 
+.date-form-wrapper .blank-number{
+    background: #6A52FD;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    border-radius: 50%;
+    color: #FFFFFF;
+    font-size: 14px;
+    margin-top: 5px;
+}
+.date-form-wrapper .blank-number{
+    background: transparent;
+}
+.date-form-wrapper .main-content{
+    width: 80%;
+}
+.date-form-wrapper .item{
+    width: 100%;
+}
+.date-form-wrapper .input-icon-container{
+    background: #FFFFFF;
+    border: 1px solid #565656;
+    color: #565656;
+    width: 100%;
+    padding: 8px 15px;
+    margin-bottom: 15px;
+}
+.date-form-wrapper .input-icon-container button,
+.date-form-wrapper .input-icon-container select,
+.date-form-wrapper .input-icon-container input{
+    width: 90%;
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    text-align: left;
+    background: none;
+    color: #565656;
+}
+.date-form-wrapper .submit{
+    background: #6A52FD;
+    border: 1px solid #FFFFFF;
+    border-radius: 30px;
+    padding: 10px 20px;
+    color: #FFFFFF;
+}

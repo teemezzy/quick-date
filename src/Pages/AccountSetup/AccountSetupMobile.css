@@ -1,0 +1,81 @@
+@media only screen and (max-width: 990px){
+    .acct-setup-left-img{
+        display: none;
+    }   
+    .acct-setup-left-img-mobile{
+        display: block;
+        position: absolute;
+        top: 0px;
+        left: 0;
+        width: 54%;
+    }
+
+    .acct-setup-btm-right-img{
+        width: 40%;
+    }
+
+    .acct-setup-content-wrapper{
+        display: grid;
+        grid-template-columns: 1fr;
+        /* position: relative; */
+    }
+
+    .right-input-wrapper{
+        padding: 30px 10px;
+        /* background-color: red;     */
+    }
+
+    .right-input-fields-wrapper{
+    padding: 20px;
+    width: 45vw;
+    margin: 0 auto;
+}
+
+    .acct-setup-input-container .input-option-tab > div{
+        padding: 10px 40px;
+        background-color: #fff;
+    }
+    
+    .em-selected >div:nth-child(2){
+        color: #000;
+    }
+
+    .acct-setup-input-container .input-option-tab .acct-setup-tab-active,.em-selected{
+        background-color: #6A52FD;
+        color: #fff;
+    }
+
+    form .acct-setup-input-wrapper input{
+        width: 100%;
+        padding: 10px 40px;
+        min-width: 100px;
+    }
+
+    .forgot-pword{
+        align-self: flex-end;
+        color: #6A52FD;
+        margin-bottom: 50px;
+    }
+
+    .acct-setup-input-form button{
+        background-color: #7B61FF;
+        border-radius: 50px;
+        border: 1px solid #7B61FF;
+        padding: 19px;
+        color: #fff;
+        outline: none;
+        margin-bottom: 18px;
+        width: 50%;
+        align-self: center;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .right-input-fields-wrapper{
+        width: 100%;
+        margin-top: 25%;
+    }
+    .login-input-container .input-option-tab{
+        width: 100%;
+    }
+}

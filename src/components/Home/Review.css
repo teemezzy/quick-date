@@ -1,0 +1,28 @@
+.review-container {
+  padding: 50px 50px;
+  background: #ffffff;
+}
+.review-container .item-one {
+  box-shadow: 6px 6px 24px rgba(106, 82, 253, 0.1);
+  border-radius: 20px;
+  padding: 30px 20px;
+  height: 300px;
+}
+
+.review-container .item-one .name {
+  color: #979797;
+}
+@media only screen and (max-width: 767px) {
+  .review-container {
+    padding: 0;
+    margin-bottom: 30px;
+    width: auto;
+    overflow: hidden;
+    /* overflow-x: scroll; */
+  }
+  .review-container .item-one {
+    height: auto;
+    margin-bottom: 15px;
+  }
+
+}

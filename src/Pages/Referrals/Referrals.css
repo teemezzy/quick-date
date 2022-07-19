@@ -1,0 +1,58 @@
+.referrals-wrapper .content{
+    display: flex;
+    gap: 20px;
+    width: 80%;
+}
+.referrals-wrapper .heading{
+    font-size: 30px;
+}
+.referrals-wrapper .back-arrow{
+    font-size: 30px;
+}
+.referrals-wrapper .refer-title{
+    text-align: center;
+}
+.referrals-wrapper .share-section{
+    display: flex;
+    /* width: 80%; */
+    justify-content: space-between;
+    align-items: center;
+}
+.share-section .share-btn{
+    background: #000000;
+    padding: 15px 20px;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+}
+.referrals-wrapper .share-code{
+    padding: 15px 20px;
+    border: 1px solid #9E9E9E;
+    color: #9E9E9E;
+    border-radius: 20px;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.referrals-wrapper .earnings{
+    display: flex;
+    justify-content: space-between;
+    background: #ECECEC;
+    border-radius: 10px;
+    padding: 15px 20px;
+    color: #292929;
+    margin-bottom: 20px;
+}
+.referrals-wrapper .earnings p{
+    margin: 0;
+}
+.referrals-wrapper .c-grey{
+    color: #8F8F8F;
+}
+@media only screen and (max-width: 767px){
+    .referrals-wrapper .content{
+        width: 100%;
+        display: block;
+        padding: 20px;
+    }
+}

@@ -1,0 +1,20 @@
+@media only screen and (max-width: 990px){
+    .wallet-option-container {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 30px;
+    }
+    
+    .wallet-option-link-nav{
+        padding: 13px 25px;
+        background-color: #CBCBCB;
+        border-radius: 3px;
+    }
+    
+    .wallet-option-active{
+        border-left: none;
+        color: #fff;
+        background-color: #6A52FD;
+    }
+}
+

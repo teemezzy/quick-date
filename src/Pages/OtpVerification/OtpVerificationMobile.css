@@ -1,0 +1,68 @@
+@media only screen and (max-width: 990px){
+    .otp-ver-left-img{
+        display: none;
+    }   
+
+    .otp-ver-left-img-mobile{
+        display: block;
+        position: absolute;
+        top: 0px;
+        left: 0;
+        width: 54%;
+        z-index: -1;
+    }
+
+    .otp-ver-btm-right-img{
+        width: 40%;
+    }
+
+    .otp-ver-content-wrapper{
+        display: grid;
+        grid-template-columns: 1fr;
+        /* position: relative; */
+    }
+
+    .right-input-wrapper{
+        padding:25px 50px;
+    }
+
+    .right-input-fields-wrapper{
+        padding: 20px;
+    }
+
+    .otp-ver-input-container .input-option-tab > div{
+        padding: 10px 40px;
+        background-color: #fff;
+    }
+    
+
+    form .otp-ver-input-wrapper input{
+        border: 1px solid #6A52FD;
+        border-radius: 5px;
+        outline: none;
+        width: 30px;
+        height: 30px;
+        background-color: #F6F4FF;
+        margin-right: 5px;
+        text-align: center;
+    }
+
+
+    .forgot-pword{
+        align-self: flex-end;
+        color: #6A52FD;
+        margin-bottom: 50px;
+    }
+
+    .otp-ver-input-form button{
+        background-color: #7B61FF;
+        border-radius: 50px;
+        border: 1px solid #7B61FF;
+        padding: 19px;
+        color: #fff;
+        outline: none;
+        margin-bottom: 18px;
+        width: 100%;
+        align-self: center;
+    }
+}

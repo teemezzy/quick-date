@@ -1,0 +1,60 @@
+.hooksfoot{
+    background-color: #0000004b;
+    width: 100%;
+    position: absolute;
+    bottom: -2px;
+    border-radius: 0 0 20px 20px;
+    padding-left: 15px;
+    color: white;
+    height: 32px;
+}
+.hook1{
+    width: 100%;
+}
+.ratings{
+    position: absolute;
+    top:20px;
+    right: 10px;
+}
+.cam-vidcam{
+    position: absolute;
+    right: 30px;
+}
+.cam{
+    margin-right: 16px;
+}
+
+.hotpicksimages{
+    position: relative;
+    border-radius: 20px;
+    height: 250px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fbfbf3;
+}
+
+/* media query for mobile (responsiveness)*/
+@media only screen and (max-width: 1200px) {
+    .hotpicksimages{
+        width: 190px;
+    }
+}
+@media only screen and (max-width: 667px) {
+    .hotpicksimages {
+        width: 150px;
+    }
+    .hot-picks-title {
+        margin-top: 30px;
+    }
+    .hpname{
+        font-size: 14px;
+    }
+    .cam{
+        margin-right: 10px;
+    }
+    .cam, .vidcam{
+        width: 20px;
+    }
+}

@@ -1,0 +1,161 @@
+.login-container{
+    position: relative;
+    min-height: 100%;
+    color: #292929;
+    /* background-color: red; */
+}
+
+.login-left-img{
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 54%;
+    /* -o-object-fit: contain; */
+       /* object-fit: contain; */
+}
+
+.login-left-img-mobile{
+    display: none;
+
+}
+
+.back-arrow-login{
+    font-size: 25px;
+}
+
+.login-btm-right-img{
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    width: 15%;
+}
+
+.login-content-wrapper{
+    display: grid;
+    grid-template-columns: 1.5fr 2fr;
+}
+
+.right-input-wrapper{
+    padding:50px 100px;
+    /* background-color: red; */
+}
+
+.right-input-fields-wrapper{
+    padding: 50px;
+    
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 6px 12px rgba(106, 82, 253, 0.25);
+    border-radius: 29.8639px;
+
+}
+
+.login-input-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-input-container .login-heading{
+    font-weight: bold;
+    margin-bottom: 40px;
+    font-size: 24px;
+}
+
+.login-input-container .input-option-tab{
+    display: flex;
+    border: 1px solid #EAEAEA;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    width: 76%;
+}
+
+.login-input-container .input-option-tab > div{
+    padding: 20px 80px;
+    background-color: #fff;
+    border-radius: 10px;
+    width: 50%;
+}
+
+.login-input-container .input-option-tab > div:nth-child(2){
+    border-radius: 8px;
+    border: 0;
+    width: 50%;
+}
+
+.login-input-container .input-option-tab .login-tab-active,.em-selected{
+    background-color: #EAEAEA;
+    width: 50%;
+}
+
+.login-input-wrapper{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.login-input-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.login-input-wrapper:nth-child(2){
+    margin-bottom: 10px;
+}
+
+.login-input-wrapper label{
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.login-input-wrapper .login-input{
+    border: 1px solid #535353;
+    outline: none;
+    padding: 10px 40px;
+    min-width: 360px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    padding: 10px 40px;
+    width: 100%;
+    background: #F6F4FF;
+}
+.input-error{
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    padding: 10px 40px;
+    /* min-width: 400px; */
+    width: 100%;
+    background-color: #F6F4FF;
+    border: 1px solid tomato;
+}
+
+.forgot-pword{
+    align-self: center;
+    color: #333333;
+    margin-bottom: 50px;
+}
+
+.login-input-form button{
+    background-color: #7B61FF;
+    border-radius: 50px;
+    border: 1px solid #7B61FF;
+    padding: 19px;
+    color: #fff;
+    outline: none;
+    margin-bottom: 18px;
+    width: 90%;
+    align-self: center;
+}
+
+
+.ext-link-wrapper{
+    text-align: center;
+}
+
+.ext-link-wrapper div:nth-child(2){
+    color: #6A52FD;
+}
+

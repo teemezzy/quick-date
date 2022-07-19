@@ -1,0 +1,121 @@
+.otp-ver-container{
+    position: relative;
+    min-height: 100%;
+    color: #292929;
+    /* background-color: red; */
+    height: 100vh;
+}
+
+.otp-ver-left-img{
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 54%;
+    /* -o-object-fit: cover; */
+       /* -o-object-fit: contain; */
+          /* object-fit: contain; */
+}
+
+.otp-ver-left-img-mobile{
+    display: none;
+
+}
+
+.otp-ver-btm-right-img{
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    width: 15%;
+}
+
+.otp-ver-content-wrapper{
+    display: grid;
+    grid-template-columns: 1.5fr 2fr;
+}
+
+.right-input-wrapper{
+    padding:50px 100px;
+}
+
+.right-input-fields-wrapper{
+    padding: 50px;
+    
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 6px 12px rgba(106, 82, 253, 0.25);
+    border-radius: 29.8639px;
+
+}
+
+.otp-ver-input-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.otp-ver-input-container .otp-ver-heading-container{
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.otp-ver-input-container .otp-ver-heading-one{
+    font-weight: bold;    
+    font-size: 24px;
+}
+
+.otp-ver-input-container .otp-ver-heading-two{
+    /* font-weight: bold; */
+    
+    font-size: 14px;
+}
+
+
+
+form .otp-ver-input-wrapper{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.otp-ver-input-form{
+    display: flex;
+    flex-direction: column;
+}
+
+
+form .otp-ver-input-wrapper label{
+    margin-bottom: 10px;
+}
+
+
+
+
+.otp-ver-input-form .otp-inputs-wrapper{
+    display: flex;
+    margin-bottom: 40px;
+}
+
+
+
+form .otp-ver-input-wrapper input{
+    border: 1px solid #6A52FD;
+    border-radius: 10px;
+    outline: none;
+    width: 70px;
+    height: 70px;
+    background-color: #F6F4FF;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.otp-ver-input-form button{
+    background-color: #7B61FF;
+    border-radius: 50px;
+    border: 1px solid #7B61FF;
+    padding: 19px;
+    color: #fff;
+    outline: none;
+    margin-bottom: 18px;
+    width: 90%;
+    align-self: center;
+}

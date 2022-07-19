@@ -1,0 +1,30 @@
+ .well{
+    width: 100%;
+    color: #292929;
+}
+.well input, .well textarea{
+    width: 80%;
+    resize: none;
+    outline: none;
+    padding: 10px;
+}
+.well .label{
+    margin: 0;
+    margin-bottom: 5px;
+    margin-top: 25px;
+}
+.well .send{
+    border: none;
+    outline: none;
+    background: #6A52FD;
+    margin-top: 15px;
+    color: #fefefe;
+    padding: 10px 40px;
+    border-radius: 20px;
+}
+
+@media only screen and (max-width: 767px){
+    .well input, .well textarea{
+        width: 100%;
+    }    
+}

@@ -1,0 +1,11 @@
+.terms-wrapper{
+    width: 90%;
+    text-align: justify;
+}
+@media screen and (max-width: 767px) {
+    .terms-wrapper{
+        width: 100%;
+        padding: 20px;
+        padding-bottom: 90px;
+    }
+}

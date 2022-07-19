@@ -1,0 +1,17 @@
+
+.wallet-option-container{
+    
+}
+
+.wallet-option-active{
+    border-left: 5px solid #6A52FD;
+    background-color: #F6F4FF;
+}
+
+.wallet-option-link-nav{
+    padding: 13px 25px;
+    font-size: 14px;
+    text-decoration: none;
+    display: block;
+    color: black;
+}

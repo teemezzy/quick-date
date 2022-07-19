@@ -1,0 +1,90 @@
+.notification-container{
+    width: 60vw;
+    margin: 0 auto;
+}
+
+.rightone {
+    position: relative;
+    left: 28rem;
+    display: inline-flex;
+    color: #6a52fd;
+}
+
+.leftone {
+    float: right;
+    float: right;
+    position: relative;
+    left: 42rem;
+    display: inline-flex;
+}
+
+.markicon {
+    margin-right: 21px;
+    width: 18px;
+    position: relative;
+    bottom: 6px;
+}
+.noti-icon{
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+.chevleft {
+    width: 20px;
+    display: inline-flex;
+    position: relative;
+    bottom: 5px;
+    right: 16px;
+}
+
+.thenotitext1 {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+/* notofication contents */
+.notisection {
+    width: 95%;
+    padding: 10px 0 0;
+    float: right;
+    border-bottom: 0.5px solid #A4A4A4;
+    cursor: pointer;
+}
+.active-note{
+    background: rgba(106, 82, 253, 0.15);
+}
+.noticontents1 {
+    position: relative;
+    right: 130px;
+    top: 22px;
+}
+.second,
+.third,
+.fourth {
+    background-color: rgba(255, 255, 255, 0);
+    border-bottom: 1px solid grey;
+}
+
+/* media query */
+@media screen and (max-width: 767px) {
+    .notification-container {
+        width: 90vw;
+        margin-top: 30px;
+        margin-bottom: 90px;
+    }
+    .thenotitext1{
+        font-size: 20px;
+    }
+    .thenotitext2{
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .notisection p {
+        font-size: 12px;
+    }
+}
+@media screen and (min-width: 1024px) {
+.foot{
+    display: none;
+}
+}
